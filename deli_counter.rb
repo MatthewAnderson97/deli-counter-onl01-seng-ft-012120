@@ -7,7 +7,8 @@ def line(katz_deli)
     number = 1
     katz_deli.each do |customer|
       line_positions << "#{number}. #{customer}"
-    
+    number += 1
+  end
   end
 def take_a_number(katz_deli,name)
   puts 
