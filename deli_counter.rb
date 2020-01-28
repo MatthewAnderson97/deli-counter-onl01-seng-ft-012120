@@ -22,3 +22,4 @@ def take_a_number(katz_deli,name)
 puts "There is nobody waiting to be served!"
 else 
   puts "Currently serving #{katz_deli.first}."
+  katz_deli.shift
