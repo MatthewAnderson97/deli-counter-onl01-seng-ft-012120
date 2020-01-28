@@ -12,4 +12,4 @@ def take_a_number(katz_deli,name)
   def now_serving
     if katz_deli.length == 0
 puts "There is nobody waiting to be served!"
-els
+else
