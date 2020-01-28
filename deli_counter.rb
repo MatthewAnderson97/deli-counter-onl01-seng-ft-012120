@@ -2,7 +2,7 @@
 katz_deli = []
 def line(katz_deli)
   line_positions = []
-  if katz_deli.empty
+  if katz_deli.empty?
     puts "The line is currently empty."
   else
     number = 1
@@ -20,7 +20,7 @@ end
   
   
   def now_serving
-    if katz_deli.length == 0
+    if katz_deli.empty?
 puts "There is nobody waiting to be served!"
 else 
   puts "Currently serving #{katz_deli.first}."
