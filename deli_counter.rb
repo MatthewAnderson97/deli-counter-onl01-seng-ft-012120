@@ -10,6 +10,7 @@ def line(katz_deli)
     number += 1
   end
   puts "The line is currently: #{line_positions.join(" ")}"
+end
   end
 def take_a_number(katz_deli,name)
   puts 
